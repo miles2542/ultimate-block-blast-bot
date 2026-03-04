@@ -1,0 +1,58 @@
+[project]
+name = "ultimate-block-blast-bot"
+version = "2.0.0"
+description = "Block Blast automation bot with Rust-accelerated solver"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Block Blast Bot Team" }
+]
+dependencies = [
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "mss>=9.0.0",
+    "dearpygui>=1.12.0",
+    "pyyaml>=6.0",
+    "pydantic>=2.0.0",
+    "pillow>=10.0.0",
+    "pywin32>=305; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "maturin>=1.0.0",
+]
+
+[build-system]
+requires = ["maturin>=1.0.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+python-source = "src"
+module-name = "block_blast_bot.rust_core"
+manifest-path = "rust_core/Cargo.toml"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "integration: marks tests that require external resources (scrcpy, device)",
+]
+
+[tool.coverage.run]
+source = ["src/block_blast_bot"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
