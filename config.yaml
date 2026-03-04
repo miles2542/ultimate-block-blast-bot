@@ -1,0 +1,42 @@
+version: '2.0'
+capture:
+  method: mss
+  fps: 15
+  timeout_ms: 3000
+vision:
+  board:
+    method: cascade
+    lab_threshold: 24
+    morph_kernel_size: 5
+  pieces:
+    method: cascade
+    min_area: 100
+    max_cells: 9
+  stability:
+    buffer_size: 3
+    hash_threshold: 0.97
+solver:
+  time_limit_ms: 1800
+  beam_width: 150
+  depth2_samples: 45
+  weights:
+    hole_penalty: -88.0
+    density_penalty: -3.08
+    score_reward: 5.1
+    combo_preservation_reward: 32.7
+    bumpiness_penalty: -0.31
+    well_depth_penalty: -21.9
+input:
+  drag_duration_ms: 100
+  pre_drop_ms: 10
+  post_drop_ms: 20
+  post_turn_ms: 0
+  tap_duration_ms: 50
+  verify_placement: true
+  popup_y_offset: -154 # Note: Device-specific. Not updated by calibrate.py.
+  scale_x: 1.4
+  scale_y: 1.4
+logging:
+  level: INFO
+  save_frames: false
+  debug_dir: ./debug
