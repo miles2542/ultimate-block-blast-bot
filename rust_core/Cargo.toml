@@ -1,0 +1,23 @@
+[package]
+name = "rust_core"
+version = "2.0.0"
+edition = "2021"
+description = "Rust core library for Block Blast Bot"
+license = "Apache-2.0"
+
+[lib]
+name = "rust_core"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+ndarray = "0.15"
+rayon = "1.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+rand = "0.10.0"
+
+[profile.release]
+opt-level = 3
+lto = true
