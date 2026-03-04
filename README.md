@@ -67,10 +67,11 @@ scrcpy --window-title="scrcpy" --stay-awake --video-codec=h265 --video-bit-rate=
 **Step 2: Initialize & Run**
 ```bash
 # Verify calibration (recommended for first run)
-python tools/calibrate.py
+# Adjust window height/width as need, else see docs/cross_device_guide.md
+uv run tools/calibrate.py
 
 # Launch the bot
-python -m block_blast_bot.main
+uv run src/block_blast_bot/main.py
 ```
 
 ---

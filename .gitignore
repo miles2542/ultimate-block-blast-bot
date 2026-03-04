@@ -238,6 +238,7 @@ __marimo__/
 # Project specific
 /plans/
 /archive/
+.kilocode/
 
 # Do NOT ignore these as they are needed for out-of-the-box usage
 !calibration.json
