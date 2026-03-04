@@ -11,7 +11,8 @@ A professional-grade, high-performance automation suite for the **Block Blast** 
 - **Efficiency**: 100,000 points in under 2 minutes.
 - **Precision**: Sub-millisecond solver latency with perfect placement accuracy.
 
-![Highscore Demo](assets/highscore_speed_demo.mp4)
+[![Highscore Demo](assets/highscore_speed_demo.webp)](assets/highscore_speed_demo.mp4)
+*Click image for full-quality video*
 
 ---
 
