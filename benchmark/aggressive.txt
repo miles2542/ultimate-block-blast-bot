@@ -1,0 +1,41 @@
+=== Block Blast Bot: Genetic Heuristic Tuner ===
+Mode: AGGRESSIVE (Expectimax Lookahead)
+Initializing population of 50
+Gen 001 | Best Fit:   4428.2 | Avg Score:   664234 | Time: 164.26s | Weights: H:-52.7, D:-3.11, S:2.0, C:400.3, B:-14.70, W:-42.4
+Gen 002 | Best Fit:   4425.6 | Avg Score:   663833 | Time: 170.18s | Weights: H:-20.8, D:-2.79, S:4.3, C:60.0, B:-0.26, W:-4.6
+Gen 003 | Best Fit:   4436.7 | Avg Score:   665507 | Time: 165.65s | Weights: H:-28.2, D:-2.79, S:4.3, C:361.7, B:-5.65, W:-40.3
+Gen 004 | Best Fit:   4446.6 | Avg Score:   666997 | Time: 167.77s | Weights: H:-103.3, D:-18.96, S:6.9, C:28.7, B:-11.15, W:-34.1
+Gen 005 | Best Fit:   4478.6 | Avg Score:   671785 | Time: 171.46s | Weights: H:-79.5, D:-12.14, S:4.5, C:92.4, B:-0.26, W:-40.3
+Gen 006 | Best Fit:   4507.6 | Avg Score:   676147 | Time: 171.11s | Weights: H:-92.9, D:-16.53, S:7.8, C:110.5, B:-5.65, W:-17.3
+Gen 007 | Best Fit:   4430.9 | Avg Score:   664638 | Time: 173.53s | Weights: H:-84.5, D:-16.52, S:6.1, C:361.7, B:-5.36, W:-16.4
+Gen 008 | Best Fit:   4399.2 | Avg Score:   659881 | Time: 170.46s | Weights: H:-28.2, D:-15.28, S:4.5, C:361.7, B:-9.29, W:-6.7
+Gen 009 | Best Fit:   4464.7 | Avg Score:   669711 | Time: 169.29s | Weights: H:-25.9, D:-12.14, S:7.8, C:361.7, B:-5.10, W:-5.6
+Gen 010 | Best Fit:   4429.7 | Avg Score:   664461 | Time: 168.98s | Weights: H:-89.6, D:-17.27, S:6.9, C:66.0, B:-5.65, W:-40.3
+Gen 011 | Best Fit:   4439.2 | Avg Score:   665875 | Time: 172.33s | Weights: H:-103.3, D:-18.96, S:7.5, C:62.4, B:-5.10, W:-35.7
+Gen 012 | Best Fit:   4471.9 | Avg Score:   670780 | Time: 172.65s | Weights: H:-92.9, D:-17.05, S:5.2, C:643.0, B:-5.42, W:-17.3
+Gen 013 | Best Fit:   4466.2 | Avg Score:   664574 | Time: 165.25s | Weights: H:-89.6, D:-12.41, S:4.5, C:361.7, B:-5.42, W:-17.3
+Gen 014 | Best Fit:   4399.7 | Avg Score:   659961 | Time: 165.08s | Weights: H:-28.2, D:-17.05, S:3.6, C:591.0, B:-5.65, W:-40.3
+Gen 015 | Best Fit:   4452.7 | Avg Score:   667908 | Time: 169.27s | Weights: H:-98.8, D:-10.04, S:4.7, C:272.6, B:-8.11, W:-34.7
+Gen 016 | Best Fit:   4481.7 | Avg Score:   672257 | Time: 170.19s | Weights: H:-80.4, D:-18.46, S:4.7, C:272.6, B:-0.22, W:-6.7
+Gen 017 | Best Fit:   4420.3 | Avg Score:   663050 | Time: 168.83s | Weights: H:-86.3, D:-18.96, S:6.2, C:144.7, B:-7.56, W:-17.3
+Gen 018 | Best Fit:   4477.4 | Avg Score:   671610 | Time: 171.16s | Weights: H:-28.2, D:-10.04, S:4.7, C:643.0, B:-5.10, W:-17.3
+Gen 019 | Best Fit:   4440.7 | Avg Score:   666108 | Time: 175.86s | Weights: H:-80.4, D:-10.04, S:5.3, C:272.6, B:-8.11, W:-34.7
+Gen 020 | Best Fit:   4450.7 | Avg Score:   667611 | Time: 171.83s | Weights: H:-86.3, D:-18.96, S:6.2, C:144.7, B:-8.05, W:-17.3
+Gen 021 | Best Fit:   4428.4 | Avg Score:   664259 | Time: 175.79s | Weights: H:-80.4, D:-18.96, S:6.2, C:115.1, B:-4.22, W:-17.3
+Gen 022 | Best Fit:   4442.2 | Avg Score:   666324 | Time: 167.47s | Weights: H:-28.2, D:-10.04, S:5.4, C:272.6, B:-4.13, W:-11.6
+Gen 023 | Best Fit:   4459.1 | Avg Score:   668863 | Time: 172.08s | Weights: H:-63.8, D:-25.00, S:4.7, C:144.7, B:-7.35, W:-34.7
+Gen 024 | Best Fit:   4486.5 | Avg Score:   672977 | Time: 174.63s | Weights: H:-28.2, D:-11.19, S:5.0, C:58.9, B:-5.15, W:-13.1
+Gen 025 | Best Fit:   4412.1 | Avg Score:   661816 | Time: 174.78s | Weights: H:-63.8, D:-11.31, S:4.7, C:144.7, B:-7.56, W:-15.3
+Gen 026 | Best Fit:   4406.6 | Avg Score:   660993 | Time: 173.12s | Weights: H:-28.2, D:-16.43, S:4.7, C:144.7, B:-4.84, W:-6.7
+Gen 027 | Best Fit:   4440.9 | Avg Score:   666138 | Time: 178.53s | Weights: H:-30.2, D:-16.43, S:5.4, C:58.9, B:-6.16, W:-6.0
+Gen 028 | Best Fit:   4435.4 | Avg Score:   665304 | Time: 169.21s | Weights: H:-88.2, D:-10.04, S:4.7, C:155.0, B:-7.56, W:-13.1
+Gen 029 | Best Fit:   4400.4 | Avg Score:   660057 | Time: 172.60s | Weights: H:-30.2, D:-16.43, S:5.4, C:55.1, B:-6.16, W:-13.1
+Gen 030 | Best Fit:   4479.7 | Avg Score:   671958 | Time: 176.73s | Weights: H:-33.9, D:-10.04, S:4.6, C:58.9, B:-6.31, W:-10.8
+
+=== Tuning Complete! ===
+Top 5 Optimal Weights (Consensus Check):
+1 | Fit: 4479.7 | Score: 671958 | H:-33.9, D:-10.04, S:4.6, C:58.9, B:-6.31, W:-10.8
+2 | Fit: 4445.8 | Score: 666866 | H:-30.2, D:-10.04, S:5.4, C:144.7, B:-8.97, W:-17.3
+3 | Fit: 4441.1 | Score: 666167 | H:-30.4, D:-11.31, S:4.9, C:144.7, B:-5.15, W:-17.3
+4 | Fit: 4430.0 | Score: 664498 | H:-86.3, D:-11.51, S:5.4, C:144.7, B:-8.11, W:-13.1
+5 | Fit: 4421.3 | Score: 663194 | H:-63.8, D:-16.43, S:4.7, C:55.1, B:-6.16, W:-13.1
