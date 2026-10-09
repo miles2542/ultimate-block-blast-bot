@@ -1,4 +1,9 @@
-# Ultimate Block Blast Bot 🚀
+scrcpy --window-title="scrcpy" --stay-awake --video-codec=h265 --video-bit-rate=16M --max-fps=60 --video-buffer=0 --window-width=620 --window-height=1346## Verify calibration (recommended for first run)
+# Adjust window height/width as need, else see docs/cross_device_guide.md
+uv run tools/calibrate.py
+
+# Launch the bot
+uv run src/block_blast_bot/main.py Ultimate Block Blast Bot 🚀
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
